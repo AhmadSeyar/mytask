@@ -1,0 +1,89 @@
+<?php
+include("include/header.php");
+include("include/connection.php");
+include("include/footer.php");
+?>
+
+
+ <div class= "container-fluid">
+	<div class ="row" id ="top">
+		<div class ="col-md-3" id="logo">
+			<img class="img-responsive" src="img/logo.png" width="30px" height="30px" alt="logo"/>
+		</div>
+		
+		<div class ="col-md-6">
+		
+		</div>
+		
+		<div class ="col-md-3">
+		<h1 id ="dept-name">خدمات نرم افزاری</h1>
+		</div>
+	</div>
+	
+  <!--emd row 1 -->
+  </br>
+  	<div class ="row">
+		<div class ="col-md-4" id="menue">
+			<ul class ="nav nav-pills">
+				<li role ="presentattion" class ="active"><a href="#">  جدید جنس </a></li>
+				<li role ="presentattion" class ="active"><a href="#">کارمند جدید</a></li>
+                <li role ="presentattion" class ="active"><a href="#">لیست کارمندان</a></li>
+			</ul>
+		</div>
+			<div class ="col-md-6" id="f">
+				<form class ="form-inline"> 
+					<div class="form-group">
+						<input type ="text" class="form-control" name="search" placeholder="search"/>
+			            <button type="submit" class ="btn btn-success"> search </button>
+					</div>
+				</form>
+		</div>
+			<div class ="col-md-2">
+				<h4>لیست اجناس</h4>
+		   </div>
+		   </div>
+   <!--emd row 2 -->
+   </br>
+		<div class ="row" id="contant"> 
+			<div class ="col-md-12" >
+			<table class="table table-striped" dir="rtl">
+					<thead>
+						<tr class ="info">
+							<th>نام جنس</th>
+							<th>قیمت</th>
+							<th>تاریخ</th>
+							<th>کارمند</th>
+							<th>عملیات</th>
+						</tr>
+					</thead>
+					</tbody>
+						<tr>
+							<td> کمپیوتر</td>
+							<td>20000 </td>
+							<td> 2018//8/8</td>
+							<td> امین </td>
+							<td> <a href ="#"> اصلاح</a></td>
+						</tr>
+							<tr>
+							<td> کمپیوتر</td>
+							<td>20000 </td>
+							<td> 2018//8/8</td>
+							<td> امین </td>
+							<td> <a href ="#"> اصلاح</a></td>
+						</tr>
+								<tr>
+							<td> کمپیوتر</td>
+							<td>20000 </td>
+							<td> 2018//8/8</td>
+							<td> امین </td>
+							<td> <a href ="#"> اصلاح</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+  </div>
+  
+  </body>
+  </html>
+  
